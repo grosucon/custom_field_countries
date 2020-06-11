@@ -1,15 +1,19 @@
 Redmine Custom Field Countries
 ==================
-This plugin add new Country format for custom fields.
+This plugin add Country format for custom fields.
 
 [Online DEMO](https://redmine-app.com/custom_fields)
 
 * **login:** admin
 * **password:** admin 
 
+Features
+-------------
+* Country names supported in all Redmine languages.
+
 Compatibility
 -------------
-* Redmine 4.0.0 or higher
+* Redmine 3.4.0 or higher
 * Plugin [custom_tables](https://github.com/frywer/custom_tables) 1.0.6 or higher
 
 Installation
@@ -26,6 +30,7 @@ Usage
 ----------------------
 1) Visit **Administration->Custom fields**. 
 2) Press the button **New custom field**. Select format **Country**.
+3) Select **Language** for displaying country names.
 
 Uninstall
 ----------------------

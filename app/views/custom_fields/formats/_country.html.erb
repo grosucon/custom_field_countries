@@ -1,0 +1,8 @@
+<p>
+  <%= f.select :language,
+               lang_options_for_select(false),
+               { selected: custom_field.language || Setting.default_language, required: true },
+               { disabled: !custom_field.new_record? }
+  %>
+  <em class="info"><%= l(:text_country_language_info) %></em>
+</p>
